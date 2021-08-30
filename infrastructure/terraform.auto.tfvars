@@ -1,10 +1,10 @@
-region                     = "us-east-2"
-hcp_region                 = "us-east-1"
+region                     = "us-west-2"
+hcp_region                 = "us-west-2"
 name                       = "zero"
 hcp_consul_public_endpoint = true
 hcp_vault_public_endpoint  = true
 tags = {
-  Environment = "rosemary-zero-trust-demo"
+  Environment = "oss-conf-demo"
   Automation  = "terraform"
-  Owner       = "rosemary"
+  Owner       = "jacquie"
 }
